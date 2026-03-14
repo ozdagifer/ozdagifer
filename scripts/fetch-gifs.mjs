@@ -8,6 +8,7 @@
 import { writeFile } from "node:fs/promises";
 
 const CHANNEL_URL = "https://giphy.com/channel/perrysgifs";
+const MAX_PAGES = 10;
 
 function cleanUrl(raw) {
   return raw
@@ -70,20 +71,39 @@ function mediaUrls(id) {
   };
 }
 
-async function main() {
-  console.log(`Fetching channel: ${CHANNEL_URL}`);
-  const res = await fetch(CHANNEL_URL, {
+async function fetchChannelPage(page) {
+  const url = page === 1 ? CHANNEL_URL : `${CHANNEL_URL}?page=${page}`;
+  console.log(`Fetching channel page ${page}: ${url}`);
+  const res = await fetch(url, {
     headers: {
       "User-Agent": "perrysgifs-build/1.0 (+https://github.com/)",
       Accept: "text/html",
     },
   });
   if (!res.ok) {
-    throw new Error(`Failed to fetch channel HTML (${res.status})`);
+    console.warn(`Failed to fetch page ${page} (${res.status}); stopping pagination.`);
+    return null;
   }
   const html = await res.text();
+  return html;
+}
 
-  const pageUrls = parseGifPageUrls(html);
+async function main() {
+  const allPageUrls = [];
+
+  for (let page = 1; page <= MAX_PAGES; page++) {
+    const html = await fetchChannelPage(page);
+    if (!html) break;
+    const urls = parseGifPageUrls(html);
+    console.log(`Found ${urls.length} GIF URLs on page ${page}.`);
+    if (!urls.length && page > 1) {
+      // No more content on further pages.
+      break;
+    }
+    allPageUrls.push(...urls);
+  }
+
+  const pageUrls = uniqueKeepOrder(allPageUrls);
   const ids = uniqueKeepOrder(pageUrls.map(idFromGifPageUrl).filter(Boolean));
 
   const gifs = ids.map((id) => {
@@ -107,7 +127,7 @@ async function main() {
   };
 
   await writeFile(new URL("../data/gifs.json", import.meta.url), JSON.stringify(out, null, 2));
-  console.log(`Wrote data/gifs.json with ${gifs.length} GIFs.`);
+  console.log(`Wrote data/gifs.json with ${gifs.length} GIFs from ${pageUrls.length} URLs.`);
 }
 
 main().catch((e) => {
