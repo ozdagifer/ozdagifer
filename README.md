@@ -1,8 +1,8 @@
-# ozmeep’s gifs
+# May the designer
 
-Static HTML/CSS/JS gallery that displays GIFs from the **ozmeep** GIPHY channel.
+Static HTML/CSS/JS gallery that displays GIFs from the **maythedesigner** GIPHY channel.
 
-> Reactions, laughs, and perfectly timed loops — curated by ozmeep.
+> Girly pink reactions, memes, and perfectly timed loops — curated by May.
 
 ## How it works
 
@@ -39,7 +39,7 @@ Commit the updated `data/gifs.json`.
 
 ## GitHub Pages deploy
 
-1. Create a repo named **`ozmeep`** or similar.
+1. Create a repo named **`MayCodegirl`** or similar.
 2. Push this project to that repo.
 3. In GitHub repo settings → **Pages**:
    - **Build and deployment**: "Deploy from a branch"
@@ -47,4 +47,4 @@ Commit the updated `data/gifs.json`.
 
 ---
 
-**ozmeep’s gifs** — Your daily dose of perfectly timed reactions.
+**May the designer** — Girly pink reactions and memes.
