@@ -9,7 +9,7 @@ Static HTML/CSS/JS gallery that displays GIFs from the **maythedesigner** GIPHY 
 GitHub Pages is static, and browsers can't fetch `giphy.com` HTML due to CORS.  
 So this repo snapshots the channel at build time into `data/gifs.json`.
 
-For a complete, reliable snapshot of **all** GIFs, configure a `GIPHY_API_KEY` as a GitHub Actions secret. The key is only used server-side in the scheduled workflow (never in the frontend).
+This project snapshots a fixed list of GIFs into `data/gifs.json` at build time (no GIPHY API key needed).
 
 ## Local run
 

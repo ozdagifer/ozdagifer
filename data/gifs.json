@@ -1,6 +1,55 @@
 {
-  "channel": "https://giphy.com/channel/maythedesigner",
-  "builtAt": "2026-03-18T15:13:18.869Z",
-  "count": 0,
-  "gifs": []
+  "source": "hardcoded GIF_PAGE_URLS",
+  "builtAt": "2026-03-18T21:55:26.217Z",
+  "count": 6,
+  "gifs": [
+    {
+      "id": "1MfLI2gGVWnnbtF6vY",
+      "pageUrl": "https://giphy.com/gifs/speed-oh-my-god-ishowspeed-1MfLI2gGVWnnbtF6vY",
+      "title": "speed oh my god ishowspeed",
+      "previewUrl": "https://media.giphy.com/media/1MfLI2gGVWnnbtF6vY/giphy_s.gif",
+      "gifUrl": "https://media.giphy.com/media/1MfLI2gGVWnnbtF6vY/giphy.gif",
+      "stillUrl": "https://media.giphy.com/media/1MfLI2gGVWnnbtF6vY/200.gif"
+    },
+    {
+      "id": "Ckt3O6IraLCqm89ts8",
+      "pageUrl": "https://giphy.com/gifs/lior-sorin-hold-on-lemme-read-it-let-me-Ckt3O6IraLCqm89ts8",
+      "title": "lior sorin hold on lemme read it let me",
+      "previewUrl": "https://media.giphy.com/media/Ckt3O6IraLCqm89ts8/giphy_s.gif",
+      "gifUrl": "https://media.giphy.com/media/Ckt3O6IraLCqm89ts8/giphy.gif",
+      "stillUrl": "https://media.giphy.com/media/Ckt3O6IraLCqm89ts8/200.gif"
+    },
+    {
+      "id": "ajSYYvOLFIDLfSYRVu",
+      "pageUrl": "https://giphy.com/gifs/excited-spongebob-i-want-this-ajSYYvOLFIDLfSYRVu",
+      "title": "excited spongebob i want this",
+      "previewUrl": "https://media.giphy.com/media/ajSYYvOLFIDLfSYRVu/giphy_s.gif",
+      "gifUrl": "https://media.giphy.com/media/ajSYYvOLFIDLfSYRVu/giphy.gif",
+      "stillUrl": "https://media.giphy.com/media/ajSYYvOLFIDLfSYRVu/200.gif"
+    },
+    {
+      "id": "kjWtPiTfkg26BwJ5vL",
+      "pageUrl": "https://giphy.com/gifs/mmm-old-lady-you-sure-kjWtPiTfkg26BwJ5vL",
+      "title": "mmm old lady you sure",
+      "previewUrl": "https://media.giphy.com/media/kjWtPiTfkg26BwJ5vL/giphy_s.gif",
+      "gifUrl": "https://media.giphy.com/media/kjWtPiTfkg26BwJ5vL/giphy.gif",
+      "stillUrl": "https://media.giphy.com/media/kjWtPiTfkg26BwJ5vL/200.gif"
+    },
+    {
+      "id": "YwoMab1xWp5CfkRAg0",
+      "pageUrl": "https://giphy.com/gifs/diva-girly-girl-as-you-should-YwoMab1xWp5CfkRAg0",
+      "title": "diva girly girl as you should",
+      "previewUrl": "https://media.giphy.com/media/YwoMab1xWp5CfkRAg0/giphy_s.gif",
+      "gifUrl": "https://media.giphy.com/media/YwoMab1xWp5CfkRAg0/giphy.gif",
+      "stillUrl": "https://media.giphy.com/media/YwoMab1xWp5CfkRAg0/200.gif"
+    },
+    {
+      "id": "e5ucls4LRi7MmAC4wQ",
+      "pageUrl": "https://giphy.com/gifs/girly-girl-mayagifs-yourgirlmaya-e5ucls4LRi7MmAC4wQ",
+      "title": "girly girl mayagifs yourgirlmaya",
+      "previewUrl": "https://media.giphy.com/media/e5ucls4LRi7MmAC4wQ/giphy_s.gif",
+      "gifUrl": "https://media.giphy.com/media/e5ucls4LRi7MmAC4wQ/giphy.gif",
+      "stillUrl": "https://media.giphy.com/media/e5ucls4LRi7MmAC4wQ/200.gif"
+    }
+  ]
 }
