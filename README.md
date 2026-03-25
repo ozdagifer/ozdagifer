@@ -1,8 +1,8 @@
-# May the designer
+# ozdagifer
 
-Static HTML/CSS/JS gallery that displays GIFs from the **maythedesigner** GIPHY channel.
+Static HTML/CSS/JS gallery that displays GIFs (snapshot) for **ozdagifer**.
 
-> Girly pink reactions, memes, and perfectly timed loops — curated by May.
+> Girly blue reactions, memes, and perfectly timed loops — curated by ozdagifer.
 
 ## How it works
 
@@ -47,4 +47,4 @@ Commit the updated `data/gifs.json`.
 
 ---
 
-**May the designer** — Girly pink reactions and memes.
+**ozdagifer** — Girly blue reactions and memes.

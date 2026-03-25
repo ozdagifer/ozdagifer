@@ -1,42 +1,42 @@
-/* May the designer — girly pink candy UI */
+/* ozdagifer — girly blue candy UI */
 :root {
-  --bg: #fff4fb;
-  --bg2: #ffe6f6;
+  --bg: #eef8ff;
+  --bg2: #dbeafe;
   --surface: #ffffff;
   --surface-solid: #ffffff;
-  --ink: #2b0b1f;
-  --ink-muted: #6c3050;
-  --ink-faint: #9a5d7b;
-  --accent: #ff4fb4;
-  --accent2: #ff79c6;
-  --accent-hover: #ff2aa2;
-  --border: rgba(255, 79, 180, 0.18);
+  --ink: #0b1220;
+  --ink-muted: #334155;
+  --ink-faint: #60a5fa;
+  --accent: #3b82f6;
+  --accent2: #60a5fa;
+  --accent-hover: #2563eb;
+  --border: rgba(59, 130, 246, 0.18);
   --radius: 14px;
   --radius-lg: 22px;
   --font-head: "Syne", sans-serif;
   --font-body: "Outfit", system-ui, sans-serif;
   --max: 1160px;
-  --shadow: 0 10px 30px rgba(255, 79, 180, 0.12);
-  --shadow-hover: 0 16px 46px rgba(255, 79, 180, 0.22);
-  --ring: 0 0 0 4px rgba(255, 79, 180, 0.22);
+  --shadow: 0 10px 30px rgba(59, 130, 246, 0.12);
+  --shadow-hover: 0 16px 46px rgba(59, 130, 246, 0.22);
+  --ring: 0 0 0 4px rgba(59, 130, 246, 0.22);
 }
 
 html[data-theme="dark"] {
-  /* If a user/device forces "dark", keep it bright + pink anyway. */
-  --bg: #fff4fb;
-  --bg2: #ffe6f6;
+  /* If a user/device forces "dark", keep it bright + blue anyway. */
+  --bg: #eef8ff;
+  --bg2: #dbeafe;
   --surface: #ffffff;
   --surface-solid: #ffffff;
-  --ink: #2b0b1f;
-  --ink-muted: #6c3050;
-  --ink-faint: #9a5d7b;
-  --accent: #ff4fb4;
-  --accent2: #ff79c6;
-  --accent-hover: #ff2aa2;
-  --border: rgba(255, 79, 180, 0.18);
-  --shadow: 0 10px 30px rgba(255, 79, 180, 0.12);
-  --shadow-hover: 0 16px 46px rgba(255, 79, 180, 0.22);
-  --ring: 0 0 0 4px rgba(255, 79, 180, 0.22);
+  --ink: #0b1220;
+  --ink-muted: #334155;
+  --ink-faint: #60a5fa;
+  --accent: #3b82f6;
+  --accent2: #60a5fa;
+  --accent-hover: #2563eb;
+  --border: rgba(59, 130, 246, 0.18);
+  --shadow: 0 10px 30px rgba(59, 130, 246, 0.12);
+  --shadow-hover: 0 16px 46px rgba(59, 130, 246, 0.22);
+  --ring: 0 0 0 4px rgba(59, 130, 246, 0.22);
 }
 
 * { box-sizing: border-box; }
@@ -47,8 +47,8 @@ body {
   font-weight: 500;
   color: var(--ink);
   background:
-    radial-gradient(900px 520px at 12% 8%, rgba(255, 79, 180, 0.16), transparent 55%),
-    radial-gradient(880px 520px at 88% 18%, rgba(255, 180, 220, 0.25), transparent 55%),
+    radial-gradient(900px 520px at 12% 8%, rgba(59, 130, 246, 0.18), transparent 55%),
+    radial-gradient(880px 520px at 88% 18%, rgba(96, 165, 250, 0.25), transparent 55%),
     var(--bg);
   min-height: 100dvh;
   line-height: 1.5;
@@ -67,7 +67,7 @@ a:hover { text-decoration: underline; }
   position: sticky;
   top: 0;
   z-index: 10;
-  background: linear-gradient(180deg, #ffffff, #ffeaf6);
+  background: linear-gradient(180deg, #ffffff, #dbeafe);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid var(--border);
 }
@@ -106,9 +106,9 @@ a:hover { text-decoration: underline; }
   font-weight: 600;
   cursor: pointer;
   border: 1px solid var(--border);
-  background: linear-gradient(180deg, #ffffff, #ffeaf6);
+  background: linear-gradient(180deg, #ffffff, #dbeafe);
   color: var(--ink);
-  box-shadow: 0 6px 18px rgba(255, 79, 180, 0.12);
+  box-shadow: 0 6px 18px rgba(59, 130, 246, 0.12);
   transition: background 0.15s, border-color 0.15s, transform 0.15s, box-shadow 0.2s;
 }
 .pill--ghost {
@@ -118,8 +118,8 @@ a:hover { text-decoration: underline; }
 }
 .pill:hover {
   text-decoration: none;
-  background: rgba(255, 79, 180, 0.16);
-  border-color: rgba(255, 79, 180, 0.28);
+  background: rgba(59, 130, 246, 0.14);
+  border-color: rgba(59, 130, 246, 0.30);
   transform: translateY(-1px);
 }
 
@@ -135,7 +135,7 @@ a:hover { text-decoration: underline; }
   letter-spacing: -0.03em;
   line-height: 1.05;
   color: var(--ink);
-  text-shadow: 0 10px 30px rgba(255, 79, 180, 0.16);
+  text-shadow: 0 10px 30px rgba(59, 130, 246, 0.16);
 }
 .hero__subtitle {
   margin: 12px 0 0;
@@ -158,7 +158,7 @@ a:hover { text-decoration: underline; }
   border-radius: 999px;
   font-size: 0.95rem;
   font-weight: 600;
-  border: 1px solid rgba(255, 79, 180, 0.25);
+  border: 1px solid rgba(59, 130, 246, 0.25);
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.74));
   color: var(--ink);
   box-shadow: var(--shadow);
@@ -166,7 +166,7 @@ a:hover { text-decoration: underline; }
 }
 .btn--main:hover {
   text-decoration: none;
-  border-color: rgba(255, 79, 180, 0.55);
+  border-color: rgba(59, 130, 246, 0.55);
   box-shadow: var(--shadow-hover);
   transform: translateY(-1px);
 }
@@ -176,8 +176,8 @@ a:hover { text-decoration: underline; }
   display: grid;
   place-items: center;
   border-radius: 10px;
-  background: linear-gradient(135deg, rgba(255, 79, 180, 0.16), rgba(199, 125, 255, 0.14));
-  border: 1px solid rgba(255, 79, 180, 0.16);
+  background: linear-gradient(135deg, rgba(59, 130, 246, 0.16), rgba(96, 165, 250, 0.14));
+  border: 1px solid rgba(59, 130, 246, 0.16);
 }
 .btn__iconImg, .btn__iconSvg {
   width: 16px;
@@ -215,15 +215,15 @@ a:hover { text-decoration: underline; }
   font-size: 0.95rem;
   font-family: var(--font-body);
   color: var(--ink);
-  background: linear-gradient(180deg, #ffffff, #fff1fa);
-  border: 1px solid rgba(255, 79, 180, 0.22);
+  background: linear-gradient(180deg, #ffffff, #eff6ff);
+  border: 1px solid rgba(59, 130, 246, 0.22);
   border-radius: 14px;
   outline: none;
-  box-shadow: 0 8px 24px rgba(255, 79, 180, 0.08);
+  box-shadow: 0 8px 24px rgba(59, 130, 246, 0.08);
   transition: border-color 0.15s, box-shadow 0.2s, transform 0.15s;
 }
 .input:focus {
-  border-color: rgba(255, 79, 180, 0.65);
+  border-color: rgba(59, 130, 246, 0.65);
   box-shadow: var(--shadow), var(--ring);
 }
 .input--area {
@@ -238,17 +238,17 @@ a:hover { text-decoration: underline; }
   font-weight: 600;
   font-family: var(--font-body);
   cursor: pointer;
-  border: 1px solid rgba(255, 79, 180, 0.22);
+  border: 1px solid rgba(59, 130, 246, 0.22);
   background: rgba(255, 255, 255, 0.78);
   color: var(--ink);
   white-space: nowrap;
-  box-shadow: 0 10px 26px rgba(255, 79, 180, 0.12);
+  box-shadow: 0 10px 26px rgba(59, 130, 246, 0.12);
   transition: background 0.15s, border-color 0.15s, transform 0.15s;
 }
 .btn:hover {
   text-decoration: none;
-  background: rgba(255, 79, 180, 0.12);
-  border-color: rgba(255, 79, 180, 0.55);
+  background: rgba(59, 130, 246, 0.12);
+  border-color: rgba(59, 130, 246, 0.55);
   transform: translateY(-1px);
 }
 .btn--ghost {
@@ -262,8 +262,8 @@ a:hover { text-decoration: underline; }
 
 /* Panel = gallery container */
 .panel {
-  background: linear-gradient(180deg, #ffffff, #ffd6ee);
-  border: 1px solid rgba(255, 79, 180, 0.22);
+  background: linear-gradient(180deg, #ffffff, #dbeafe);
+  border: 1px solid rgba(59, 130, 246, 0.22);
   border-radius: var(--radius-lg);
   padding: 20px;
   margin-bottom: 32px;
@@ -307,24 +307,24 @@ a:hover { text-decoration: underline; }
 .card {
   break-inside: avoid;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.82), rgba(255, 255, 255, 0.66));
-  border: 1px solid rgba(255, 79, 180, 0.18);
+  border: 1px solid rgba(59, 130, 246, 0.18);
   border-radius: 18px;
   overflow: hidden;
   margin-bottom: 16px;
   cursor: pointer;
-  box-shadow: 0 14px 34px rgba(255, 79, 180, 0.14);
+  box-shadow: 0 14px 34px rgba(59, 130, 246, 0.14);
   transition: box-shadow 0.2s, border-color 0.2s, transform 0.15s;
 }
 .gallery--grid .card { margin: 0; }
 .card:hover {
-  border-color: rgba(255, 79, 180, 0.6);
+  border-color: rgba(59, 130, 246, 0.6);
   box-shadow: var(--shadow-hover);
   transform: translateY(-2px);
 }
 .card__media {
   width: 100%;
   display: block;
-  background: radial-gradient(500px 240px at 50% 40%, rgba(255, 79, 180, 0.18), transparent 60%), var(--bg2);
+  background: radial-gradient(500px 240px at 50% 40%, rgba(59, 130, 246, 0.18), transparent 60%), var(--bg2);
   vertical-align: middle;
 }
 .card__body {
@@ -346,19 +346,19 @@ a:hover { text-decoration: underline; }
   font-size: 0.7rem;
   font-weight: 600;
   color: var(--ink-faint);
-  background: linear-gradient(135deg, rgba(255, 79, 180, 0.14), rgba(199, 125, 255, 0.12));
+  background: linear-gradient(135deg, rgba(59, 130, 246, 0.14), rgba(96, 165, 250, 0.12));
   padding: 4px 8px;
   border-radius: 4px;
   font-family: ui-monospace, monospace;
-  border: 1px solid rgba(255, 79, 180, 0.18);
+  border: 1px solid rgba(59, 130, 246, 0.18);
 }
 
 .error {
   padding: 14px;
   border-radius: 16px;
-  border: 1px solid rgba(255, 79, 180, 0.45);
-  background: rgba(255, 79, 180, 0.12);
-  color: #b10a63;
+  border: 1px solid rgba(59, 130, 246, 0.45);
+  background: rgba(59, 130, 246, 0.12);
+  color: #1d4ed8;
   font-weight: 600;
   font-size: 0.9rem;
   margin: 12px 0;
@@ -401,7 +401,7 @@ a:hover { text-decoration: underline; }
 .modal__backdrop {
   position: absolute;
   inset: 0;
-  background: rgba(43, 11, 31, 0.55);
+  background: rgba(37, 99, 235, 0.35);
 }
 .modal__card {
   position: relative;
@@ -409,7 +409,7 @@ a:hover { text-decoration: underline; }
   max-height: 90vh;
   overflow: auto;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.72));
-  border: 1px solid rgba(255, 79, 180, 0.22);
+  border: 1px solid rgba(59, 130, 246, 0.22);
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-hover);
   backdrop-filter: blur(12px);
@@ -427,7 +427,7 @@ a:hover { text-decoration: underline; }
   width: 40px;
   height: 40px;
   border-radius: 999px;
-  border: 1px solid rgba(255, 79, 180, 0.22);
+  border: 1px solid rgba(59, 130, 246, 0.22);
   background: rgba(255, 255, 255, 0.82);
   color: var(--ink);
   font-size: 1.2rem;
@@ -436,8 +436,8 @@ a:hover { text-decoration: underline; }
   transition: background 0.15s, border-color 0.15s;
 }
 .iconBtn:hover {
-  background: rgba(255, 79, 180, 0.12);
-  border-color: rgba(255, 79, 180, 0.55);
+  background: rgba(59, 130, 246, 0.12);
+  border-color: rgba(59, 130, 246, 0.55);
 }
 .modal__media {
   background: var(--bg2);
@@ -468,12 +468,12 @@ a:hover { text-decoration: underline; }
 }
 .modal__actions .btn {
   background: linear-gradient(135deg, var(--accent), var(--accent2));
-  border-color: rgba(255, 79, 180, 0.55);
+  border-color: rgba(59, 130, 246, 0.55);
   color: #fff;
 }
 .modal__actions .btn:hover {
   background: linear-gradient(135deg, var(--accent-hover), var(--accent2));
-  border-color: rgba(255, 79, 180, 0.75);
+  border-color: rgba(59, 130, 246, 0.75);
   color: #fff;
 }
 

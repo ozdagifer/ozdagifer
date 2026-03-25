@@ -1,8 +1,8 @@
 {
-  "name": "ozmeep-gifs",
+  "name": "ozdagifer-gifs",
   "private": true,
   "version": "1.0.0",
-  "description": "ozmeep’s gifs (static site)",
+  "description": "ozdagifer’s gifs (static site)",
   "type": "module",
   "scripts": {
     "fetch": "node scripts/fetch-gifs.mjs",
