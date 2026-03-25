@@ -223,12 +223,6 @@ async function loadGifs() {
 }
 
 function wireUi() {
-  const search = $("#search");
-  search.addEventListener("input", () => {
-    state.search = search.value;
-    applyFilter();
-  });
-
   // Modal
   $("#modal").addEventListener("click", (e) => {
     const t = e.target;
@@ -306,16 +300,10 @@ function wireUi() {
       suggestSubmit.textContent = "Send";
     }
   });
-
-  // Theme
-  $("#themeToggle").addEventListener("click", () => {
-    setTheme(state.theme === "light" ? "dark" : "light");
-    toast(`Theme: ${state.theme}`);
-  });
 }
 
 function initPrefs() {
-  // Force the site to stay in the bright pink theme.
+  // Force the site to stay in the intended theme.
   setTheme("light");
   setLayout("masonry");
 }
