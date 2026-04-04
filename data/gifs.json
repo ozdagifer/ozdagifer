@@ -1,55 +1,55 @@
 {
   "source": "hardcoded GIF_PAGE_URLS (provided by user)",
-  "builtAt": "2026-04-04T06:14:54.332Z",
+  "builtAt": "2026-04-04T16:16:29.772Z",
   "count": 6,
   "gifs": [
     {
-      "id": "6O4i7D7hlyZg2qwjA4",
-      "pageUrl": "https://giphy.com/gifs/animal-marmot-ai-dance-6O4i7D7hlyZg2qwjA4",
-      "title": "animal marmot ai dance",
-      "previewUrl": "https://media.giphy.com/media/6O4i7D7hlyZg2qwjA4/giphy_s.gif",
-      "gifUrl": "https://media.giphy.com/media/6O4i7D7hlyZg2qwjA4/giphy.gif",
-      "stillUrl": "https://media.giphy.com/media/6O4i7D7hlyZg2qwjA4/200.gif"
+      "id": "LOm8TKmqLuFUanp4ng",
+      "pageUrl": "https://giphy.com/gifs/LOm8TKmqLuFUanp4ng",
+      "title": "GIF",
+      "previewUrl": "https://media.giphy.com/media/LOm8TKmqLuFUanp4ng/giphy_s.gif",
+      "stillUrl": "https://media.giphy.com/media/LOm8TKmqLuFUanp4ng/200.gif",
+      "gifUrl": "https://media4.giphy.com/media/LOm8TKmqLuFUanp4ng/200.gif"
     },
     {
-      "id": "MDTqF1nyzBMDTKTHpL",
-      "pageUrl": "https://giphy.com/gifs/smile-cool-guy-hand-up-MDTqF1nyzBMDTKTHpL",
-      "title": "smile cool guy hand up",
-      "previewUrl": "https://media.giphy.com/media/MDTqF1nyzBMDTKTHpL/giphy_s.gif",
-      "gifUrl": "https://media.giphy.com/media/MDTqF1nyzBMDTKTHpL/giphy.gif",
-      "stillUrl": "https://media.giphy.com/media/MDTqF1nyzBMDTKTHpL/200.gif"
+      "id": "De9EKlbNcIF7dIjK0a",
+      "pageUrl": "https://giphy.com/gifs/De9EKlbNcIF7dIjK0a",
+      "title": "GIF",
+      "previewUrl": "https://media.giphy.com/media/De9EKlbNcIF7dIjK0a/giphy_s.gif",
+      "stillUrl": "https://media.giphy.com/media/De9EKlbNcIF7dIjK0a/200.gif",
+      "gifUrl": "https://media0.giphy.com/media/De9EKlbNcIF7dIjK0a/giphy.gif"
     },
     {
-      "id": "cuF5SqZn8sePIjdNKT",
-      "pageUrl": "https://giphy.com/gifs/eclipse-lunar-red-moon-cuF5SqZn8sePIjdNKT",
-      "title": "eclipse lunar red moon",
-      "previewUrl": "https://media.giphy.com/media/cuF5SqZn8sePIjdNKT/giphy_s.gif",
-      "gifUrl": "https://media.giphy.com/media/cuF5SqZn8sePIjdNKT/giphy.gif",
-      "stillUrl": "https://media.giphy.com/media/cuF5SqZn8sePIjdNKT/200.gif"
+      "id": "MmU28izjksnufGLE9r",
+      "pageUrl": "https://giphy.com/gifs/MmU28izjksnufGLE9r",
+      "title": "GIF",
+      "previewUrl": "https://media.giphy.com/media/MmU28izjksnufGLE9r/giphy_s.gif",
+      "stillUrl": "https://media.giphy.com/media/MmU28izjksnufGLE9r/200.gif",
+      "gifUrl": "https://media2.giphy.com/media/MmU28izjksnufGLE9r/200.gif"
     },
     {
-      "id": "eZ6PcI6qswEpmv8ROo",
-      "pageUrl": "https://giphy.com/gifs/monkey-im-still-waiting-sitting-on-chair-eZ6PcI6qswEpmv8ROo",
-      "title": "monkey im still waiting sitting on chair",
-      "previewUrl": "https://media.giphy.com/media/eZ6PcI6qswEpmv8ROo/giphy_s.gif",
-      "gifUrl": "https://media.giphy.com/media/eZ6PcI6qswEpmv8ROo/giphy.gif",
-      "stillUrl": "https://media.giphy.com/media/eZ6PcI6qswEpmv8ROo/200.gif"
+      "id": "h8lCtsBF7Q79Um8jbi",
+      "pageUrl": "https://giphy.com/gifs/h8lCtsBF7Q79Um8jbi",
+      "title": "GIF",
+      "previewUrl": "https://media.giphy.com/media/h8lCtsBF7Q79Um8jbi/giphy_s.gif",
+      "stillUrl": "https://media.giphy.com/media/h8lCtsBF7Q79Um8jbi/200.gif",
+      "gifUrl": "https://media3.giphy.com/media/h8lCtsBF7Q79Um8jbi/giphy.gif"
     },
     {
-      "id": "DlCHtTZDM7Vop4P3m0",
-      "pageUrl": "https://giphy.com/gifs/patrick-nothing-to-do-list-DlCHtTZDM7Vop4P3m0",
-      "title": "patrick nothing to do list",
-      "previewUrl": "https://media.giphy.com/media/DlCHtTZDM7Vop4P3m0/giphy_s.gif",
-      "gifUrl": "https://media.giphy.com/media/DlCHtTZDM7Vop4P3m0/giphy.gif",
-      "stillUrl": "https://media.giphy.com/media/DlCHtTZDM7Vop4P3m0/200.gif"
+      "id": "2iJe7IpZI8017RwdvT",
+      "pageUrl": "https://giphy.com/gifs/2iJe7IpZI8017RwdvT",
+      "title": "GIF",
+      "previewUrl": "https://media.giphy.com/media/2iJe7IpZI8017RwdvT/giphy_s.gif",
+      "stillUrl": "https://media.giphy.com/media/2iJe7IpZI8017RwdvT/200.gif",
+      "gifUrl": "https://media3.giphy.com/media/2iJe7IpZI8017RwdvT/giphy.gif"
     },
     {
-      "id": "z5mSMHvUso0iqH6KhM",
-      "pageUrl": "https://giphy.com/gifs/hebrew-was-it-worth-z5mSMHvUso0iqH6KhM",
-      "title": "hebrew was it worth",
-      "previewUrl": "https://media.giphy.com/media/z5mSMHvUso0iqH6KhM/giphy_s.gif",
-      "gifUrl": "https://media.giphy.com/media/z5mSMHvUso0iqH6KhM/giphy.gif",
-      "stillUrl": "https://media.giphy.com/media/z5mSMHvUso0iqH6KhM/200.gif"
+      "id": "57d6QbNkEwx5vq0xED",
+      "pageUrl": "https://giphy.com/gifs/57d6QbNkEwx5vq0xED",
+      "title": "GIF",
+      "previewUrl": "https://media.giphy.com/media/57d6QbNkEwx5vq0xED/giphy_s.gif",
+      "stillUrl": "https://media.giphy.com/media/57d6QbNkEwx5vq0xED/200.gif",
+      "gifUrl": "https://media1.giphy.com/media/57d6QbNkEwx5vq0xED/200.gif"
     }
   ]
 }
