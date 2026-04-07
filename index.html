@@ -3,17 +3,15 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="color-scheme" content="light" />
-    <meta name="theme-color" content="#3b82f6" />
-    <title>MarshyPasture</title>
+    <title>Marshy Pasture</title>
     <meta
       name="description"
-      content="MarshyPasture — girly blue reactions, memes, and perfectly timed loops."
+      content="Marshy Pasture — GIFs and reactions on GIPHY."
     />
-    <meta property="og:title" content="MarshyPasture" />
+    <meta property="og:title" content="Marshy Pasture" />
     <meta
       property="og:description"
-      content="MarshyPasture — girly blue reactions, memes, and perfectly timed loops."
+      content="Marshy Pasture — GIFs and reactions on GIPHY."
     />
     <meta
       property="og:image"
@@ -28,163 +26,40 @@
       rel="apple-touch-icon"
       href="https://media.giphy.com/avatars/marshypasture/cu3WxGhZANC5/200h.png"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@500;700;800&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <header class="top">
-      <div class="wrap top__inner">
-        <a class="brand" href="./" aria-label="Home">
-          <span class="brand__text">MarshyPasture</span>
-        </a>
-
-        <div class="top__nav" aria-label="Links">
-          <a
-            class="pill pill--ghost"
-            href="https://www.instagram.com/marshypasture"
-            target="_blank"
-            rel="noreferrer"
-            >Instagram</a
-          >
-          <a
-            class="pill"
-            href="https://giphy.com/channel/marshypasture"
-            target="_blank"
-            rel="noreferrer"
-            >GIPHY Channel</a
-          >
-        </div>
-      </div>
-    </header>
-
-    <main class="wrap">
-      <div class="homeGrid">
-        <section class="heroCard" aria-label="Intro">
-          <div class="heroCard__inner">
-            <h1 class="hero__title">MarshyPasture</h1>
-            <img
-              class="hero__logo"
-              src="https://media.giphy.com/avatars/marshypasture/cu3WxGhZANC5/200h.png"
-              alt="MarshyPasture logo"
-              loading="eager"
-              decoding="async"
-            />
-            <p class="hero__subtitle">Starting a fresh GIF set. Add new ones and reload.</p>
-
-            <div class="heroCard__actions">
-              <button class="btn btn--main" id="openSuggest" type="button">Request a GIF</button>
-              <a
-                class="btn btn--ghost btn--giphy"
-                href="https://giphy.com/channel/marshypasture"
-                target="_blank"
-                rel="noreferrer"
-                aria-label="Open GIPHY channel"
-              >
-                Open GIPHY
-              </a>
-            </div>
-          </div>
-        </section>
-
-        <section class="vaultStage" aria-label="Gallery">
-          <div class="vaultStage__head">
-            <div>
-              <div class="vaultStage__eyebrow">GIF VAULT</div>
-              <h2 class="vaultStage__title">Fresh Drop</h2>
-            </div>
-            <div class="vaultStage__meta" id="metaText">Loading…</div>
-          </div>
-
-          <div id="error" class="error" hidden></div>
-          <div id="gallery" class="gallery gallery--masonry" aria-live="polite"></div>
-        </section>
-      </div>
-    </main>
-
-    <footer class="footer">
-      <div class="wrap footer__inner">
-        <div class="muted">
-          <a href="https://giphy.com/channel/marshypasture" target="_blank" rel="noreferrer">GIPHY</a>
-          <span class="footer__sep" aria-hidden="true">·</span>
-          <a href="https://www.instagram.com/marshypasture" target="_blank" rel="noreferrer">Instagram</a>
-        </div>
-      </div>
-    </footer>
-
-    <div class="modal" id="modal" hidden aria-hidden="true">
-      <div class="modal__backdrop" data-close="true"></div>
-      <div class="modal__card" role="dialog" aria-modal="true" aria-label="GIF viewer">
-        <button class="iconBtn modal__close" type="button" aria-label="Close" data-close="true">
-          ✕
-        </button>
-        <div class="modal__media">
-          <img id="modalImg" alt="" />
-        </div>
-        <div class="modal__body">
-          <div class="modal__title" id="modalTitle">—</div>
-          <div class="modal__actions">
-            <a class="btn" id="openOnGiphy" href="#" target="_blank" rel="noreferrer">Open on GIPHY</a>
-            <button class="btn btn--ghost" id="copyLink" type="button">Copy link</button>
-          </div>
-          <div class="muted mono" id="modalUrl">—</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="toast" id="toast" hidden role="status" aria-live="polite"></div>
-
-    <button class="shareFab" id="shareFab" type="button" aria-label="Share">
-      Share
-    </button>
-
-    <div class="modal" id="suggestModal" hidden aria-hidden="true">
-      <div class="modal__backdrop" data-close="true"></div>
-      <div
-        class="modal__card modal__card--small"
-        role="dialog"
-        aria-modal="true"
-        aria-label="Suggestion form"
-      >
-        <button
-          class="iconBtn modal__close"
-          type="button"
-          aria-label="Close"
-          data-close="true"
-        >
-          ✕
-        </button>
-        <div class="modal__body">
-          <div class="modal__title">Request a Reaction</div>
-          <p class="muted" style="margin: 8px 0 0">
-           Need a GIF? Let me know!
+    <main class="page">
+      <header class="intro">
+        <img
+          class="intro__avatar"
+          src="https://media.giphy.com/avatars/marshypasture/cu3WxGhZANC5/200h.png"
+          alt=""
+          width="80"
+          height="80"
+          loading="eager"
+          decoding="async"
+        />
+        <div class="intro__copy">
+          <p class="intro__lead">
+            Hi, I&rsquo;m <strong>Marshy Pasture</strong>
+            (<a href="https://giphy.com/channel/marshypasture" target="_blank" rel="noreferrer">marshypasture</a>
+            on GIPHY). This is what I do.
           </p>
-
-          <form id="suggestForm" class="suggestModal__form" autocomplete="off">
-            <label class="field">
-              <span class="field__label">Name</span>
-              <input class="input" name="name" placeholder="Your name" />
-            </label>
-            <label class="field">
-              <span class="field__label">Email</span>
-              <input class="input" name="email" type="email" placeholder="you@example.com" />
-            </label>
-            <label class="field">
-              <span class="field__label">Message</span>
-              <textarea
-                class="input input--area"
-                name="message"
-                required
-                placeholder="Enter what you want"
-                rows="4"
-              ></textarea>
-            </label>
-            <button class="btn" id="suggestSubmit" type="submit">Send Request</button>
-          </form>
+          <p class="intro__links">
+            <a href="https://www.instagram.com/marshypasture" target="_blank" rel="noreferrer">Instagram</a>
+            <span class="intro__dot" aria-hidden="true">·</span>
+            <a href="https://giphy.com/channel/marshypasture" target="_blank" rel="noreferrer">GIPHY</a>
+          </p>
         </div>
-      </div>
-    </div>
+      </header>
+
+      <p id="error" class="error" role="alert" hidden></p>
+
+      <section class="work" aria-label="Work">
+        <div id="gallery" class="work__grid"></div>
+      </section>
+    </main>
 
     <script src="./app.js" defer></script>
   </body>
